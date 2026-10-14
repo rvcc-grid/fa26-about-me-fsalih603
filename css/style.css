@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    background-color: #FF5FA5;
+    color: #145AAB;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bitcount Ink";
+    font-size: 700%;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    color:#FF9800; 
+    border: 5px solid #BBFF22;
+    text-align: center;
+    background-color: #9232FF;
+    padding: 20px;
+}
+
+#hero img {
+    width: 150px;
+    height: 150px;
+}
+
+#bio{
+    text-align: center;
+
+}

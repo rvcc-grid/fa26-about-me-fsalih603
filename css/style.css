@@ -9,10 +9,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Bitcount Ink";
     text-align: center;
-}
-
-
-h1{
     font-size:40pt;
 }
 
@@ -94,6 +90,7 @@ header {
 #gallery {
     border: 5px solid #145AAB;
     margin: 40px auto;
+    margin-bottom: 40px auto;
     padding: 20px;
 }
 
@@ -104,4 +101,35 @@ header {
 #gallery figure {
     text-align: center;
 
+}
+
+/*Literature Section*/
+#lit {
+    border: 5px solid #043611;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    clear: both;
+}
+
+/*Dropcaps*/
+
+#lit div p:nth-child(2n+1):first-letter {
+    color: #310217;
+    background-color: #724fee;
+    float: left;
+    font-size: 5rem;
+    padding: 0.69rem;
+    margin-right: 0.25rem;
+    line-height: 0.65;
+    border: 3px outset #310217;
+    font-family: monospace frankenstein;
+    text-shadow: 8px 9px 18px #750032;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }

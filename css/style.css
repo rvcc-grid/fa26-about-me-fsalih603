@@ -28,14 +28,23 @@ header {
     padding: 20px;
 }
 
+/*Hero Section*/
+
+
 #hero img {
     width: 150px;
     height: 150px;
 }
 
+
+/*Bio Section*/
+
 #bio{
     text-align: center;
+    text-decoration: italic;
 
+
+/*Hobbies*/
 }
 .hobbies {
   max-width: 500px;
@@ -78,4 +87,21 @@ header {
   box-shadow: 1px 1px 0 #145AAB;
   margin-left: 4px;
   margin-top: 4px;
+}
+
+/*Gallery Section*/
+
+#gallery {
+    border: 5px solid #145AAB;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align: center;
+
 }
